@@ -272,7 +272,7 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
-.portfolio .box-container{
+.skills .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -280,7 +280,7 @@ header .navbar ul li a:hover{
     padding:2rem 0;
 }
 
-.portfolio .box-container .box{
+.skills .box-container .box{
     height: 20rem;
     width: 26rem;
     border-radius: 1rem;
@@ -289,13 +289,13 @@ header .navbar ul li a:hover{
     cursor: pointer;
 }
 
-.portfolio .box-container .box img{
+.skills .box-container .box img{
     height:100%;
     width:100%;
     object-fit: cover;
 }
 
-.portfolio .box-container .box:hover img{
+.skills .box-container .box:hover img{
     transform: scale(1.2);
 }
 
@@ -353,6 +353,18 @@ header .navbar ul li a:hover{
     padding:1rem 0;
     font-weight: normal;
     text-transform: lowercase;
+    color: #fff;
+}
+
+.contact .row .content .info h3 a{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+    text-transform: initial;
+    color: #fff;
 }
 
 .contact .row .content .info h3 i{
@@ -445,7 +457,7 @@ header .navbar ul li a:hover{
         width:100%;
     }
 
-    .portfolio .box-container .box{
+    .skills .box-container .box{
         width:100%;
     }
 
